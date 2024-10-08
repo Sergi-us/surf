@@ -1,21 +1,57 @@
-MIT License
-
-Copyright (c) 2024 Sergius
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+MIT/X Consortium License
+      2 
+      3 © 2009-2010 Enno Boland <tox@s01.de>
+      4 © 2009 Thomas Menari <spaceinvader@chaotika.org>
+      5 © 2009 Simon Rozet <simon@rozet.name>
+      6 © 2009 Andrew Antle <andrew.antle@gmail.com>
+      7 © 2010-2011 pancake <nopcode.org>
+      8 © 2011-2013 Anselm R Garbe <anselm@garbe.us>
+      9 © 2011-2012 Troels Henriksen <athas@sigkill.dk>
+     10 © 2011 Connor Lane Smith <cls@lubutu.com>
+     11 © 2012-2017 Christoph Lohmann <20h@r-36.net>
+     12 © 2013 Shayan Pooya <shayan@liveve.org>
+     13 © 2013 Jens Nyberg <jens.nyberg@gmail.com>
+     14 © 2013 Carlos J. Torres <vlaadbrain@gmail.com>
+     15 © 2013 Alexander Sedov <alex0player@gmail.com>
+     16 © 2013 Nick White <git@njw.me.uk>
+     17 © 2013 David Dufberg <david@dufberg.se>
+     18 © 2014-2021 Quentin Rameau <quinq@fifth.space>
+     19 © 2014-2016 Markus Teich <markus.teich@stusta.mhn.de>
+     20 © 2015 Jakukyo Friel <weakish@gmail.com>
+     21 © 2015 Ben Woolley <tautolog@gmail.com>
+     22 © 2015 Greg Reagle <greg.reagle@umbc.edu>
+     23 © 2015 GhostAV <ghostav@riseup.net>
+     24 © 2015-2017 Ivan Tham <pickfire@riseup.net>
+     25 © 2015 Alexander Huemer <alexander.huemer@xx.vu>
+     26 © 2015 Michael Stevens <mstevens@etla.org>
+     27 © 2015 Felix Janda <felix.janda@posteo.de>
+     28 © 2016 Charles Lehner <cel@celehner.com>
+     29 © 2016 Dmitry Bogatov <KAction@gnu.org>
+     30 © 2017 Hiltjo Posthuma <hiltjo@codemadness.org>
+     31 © 2017 ssd <ssd@mailless.org>
+     32 © 2017 Constantine Bytensky <kostya3@gmail.com>
+     33 © 2017 Eon S. Jeon <esjeon@hyunmu.am>
+     34 © 2017 Jochen Sprickerhof <git@jochen.sprickerhof.de>
+     35 © 2018 nzl <uruabi@gmail.com>
+     36 © 2018 Eddie Thieda <eddie.thieda@gmail.com>
+     37 © 2018 Leonardo Taccari <iamleot@gmail.com>
+     38 © 2019 efe <efe@efe.kim>
+     39 
+     40 Permission is hereby granted, free of charge, to any person obtaining a
+     41 copy of this software and associated documentation files (the "Software"),
+     42 to deal in the Software without restriction, including without limitation
+     43 the rights to use, copy, modify, merge, publish, distribute, sublicense,
+     44 and/or sell copies of the Software, and to permit persons to whom the
+     45 Software is furnished to do so, subject to the following conditions:
+     46 
+     47 The above copyright notice and this permission notice shall be included in
+     48 all copies or substantial portions of the Software.
+     49 
+     50 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+     51 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+     52 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+     53 THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+     54 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+     55 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+     56 DEALINGS IN THE SOFTWARE.
+     57 
