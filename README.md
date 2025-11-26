@@ -1,8 +1,20 @@
-# surf
-der Suckless Browser in SARBS integriert
+# surf - simple browser
 
-surf ist ein einfacher Webbrowser, der auf WebKit2/GTK+ basiert. Er kann
-Webseiten anzeigen und Links folgen. Der Browser unterstützt das
-XEmbed-Protokoll, was es ermöglicht, ihn in eine andere Anwendung einzubetten.
-Darüber hinaus kann man surf durch Setzen seiner XProperties auf eine andere
-URI verweisen.
+Minimalistischer Webbrowser basierend auf WebKit2/GTK+.
+
+## Features
+
+- Einfache Navigation
+- XEmbed-Protokoll (einbettbar in andere Anwendungen)
+- Steuerbar über XProperties
+- Scriptbar und erweiterbar
+
+## Installation
+
+```bash
+git clone https://codeberg.org/Sergius/surf.git
+cd surf
+sudo make install
+```
+
+Teil von [SARBS](https://codeberg.org/Sergius/SARBS.git). Funktioniert zusammen mit [tabbed](https://codeberg.org/Sergius/tabbed.git) für Tab-Support.
