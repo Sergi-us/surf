@@ -64,10 +64,12 @@ install: all
 	mkdir -p $(DESTDIR)$(MANPREFIX)/man1
 	sed "s/VERSION/$(VERSION)/g" < surf.1 > $(DESTDIR)$(MANPREFIX)/man1/surf.1
 	chmod 644 $(DESTDIR)$(MANPREFIX)/man1/surf.1
-	@userhome=$$(getent passwd "$${SUDO_USER:-$$(id -un)}" | cut -d: -f6); \
-	mkdir -p "$$userhome/.surf/styles"; \
-	ln -sf "$$userhome/.cache/wal/colors.css" "$$userhome/.surf/styles/default.css"; \
-	echo "style symlink: $$userhome/.surf/styles/default.css -> $$userhome/.cache/wal/colors.css"
+	@if [ -z "$(DESTDIR)" ]; then \
+	    userhome=$$(getent passwd "$${SUDO_USER:-$$(id -un)}" | cut -d: -f6); \
+	    mkdir -p "$$userhome/.surf/styles"; \
+	    ln -sf "$$userhome/.cache/wal/colors.css" "$$userhome/.surf/styles/default.css"; \
+	    echo "style symlink: $$userhome/.surf/styles/default.css -> $$userhome/.cache/wal/colors.css"; \
+	fi
 
 uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/surf
@@ -76,8 +78,10 @@ uninstall:
 	    rm -f $(DESTDIR)$(LIBDIR)/$$wlib; \
 	done
 	- rmdir $(DESTDIR)$(LIBDIR)
-	@userhome=$$(getent passwd "$${SUDO_USER:-$$(id -un)}" | cut -d: -f6); \
-	rm -f "$$userhome/.surf/styles/default.css"; \
-	- rmdir "$$userhome/.surf/styles"
+	@if [ -z "$(DESTDIR)" ]; then \
+	    userhome=$$(getent passwd "$${SUDO_USER:-$$(id -un)}" | cut -d: -f6); \
+	    rm -f "$$userhome/.surf/styles/default.css"; \
+	    rmdir "$$userhome/.surf/styles" 2>/dev/null || true; \
+	fi
 
 .PHONY: all options distclean clean dist install uninstall
