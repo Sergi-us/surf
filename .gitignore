@@ -1,0 +1,11 @@
+# build artifacts
+surf
+*.o
+*.so
+
+# dist
+surf-*.tar.gz
+
+# patch leftovers
+*.orig
+*.rej

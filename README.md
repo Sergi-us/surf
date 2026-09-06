@@ -21,6 +21,9 @@ Minimalistischer Webbrowser basierend auf WebKit2/GTK+ - fokussiert auf Tastatur
 - **Scriptbar** - Erweiterbar durch Shell-Skripte
 - **Konfigurierbar** - Anpassbar über config.h
 
+### Patches
+- **surf-2.0-homepage** - Konfigurierbare Homepage
+
 ## ⚡ Installation
 
 ### Automatisch mit SARBS (empfohlen)

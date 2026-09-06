@@ -7,6 +7,8 @@ static char *certdir        = "~/.surf/certificates/";
 static char *cachedir       = "~/.surf/cache/";
 static char *cookiefile     = "~/.surf/cookies.txt";
 
+#define HOMEPAGE "https://sarbs.xyz"
+
 /* Webkit-Standardfunktionen */
 /* Der höchste Prioritätswert wird verwendet.
  * Standardparameter haben Priorität 0
@@ -191,4 +193,5 @@ static Button buttons[] = {
 	{ OnAny,        0,              9,      clicknavigate,  { .i = +1 },    1 },
 	{ OnMedia,      MODKEY,         1,      clickexternplayer, { 0 },       1 },
 };
+
 
